@@ -300,6 +300,10 @@ body {
     border-radius: 50%;
 }
 
+.carousel-control:hover {
+    background-color: var(--md-sys-color-on-primary-fixed);
+}
+
 .carousel-control.prev {
     left: 10px;
 }
@@ -332,35 +336,35 @@ body {
 
 @media screen and (max-width: 640px) {
     h1 {
-        font-size: 72pt;
+        font-size: 68pt;
     }
     
     h2 {
-        font-size: 24pt;
-    }
-    
-    h3 {
-        font-size: 28pt;
-    }
-    
-    h4 {
-        font-size: 28pt;
-    }
-    
-    h5 {
-        font-size: 24pt;
-    }
-    
-    p {
         font-size: 20pt;
     }
     
+    h3 {
+        font-size: 24pt;
+    }
+    
+    h4 {
+        font-size: 24pt;
+    }
+    
+    h5 {
+        font-size: 20pt;
+    }
+    
+    p {
+        font-size: 16pt;
+    }
+    
     .text-body {
-        font-size: 28pt;
+        font-size: 24pt;
     }
     
     .text-body-italic {
-        font-size: 24pt;
+        font-size: 20pt;
     }
 
     .blocks-s {
@@ -368,11 +372,11 @@ body {
     }
 
     .block {
-        margin: 0 48px;
+        margin: 0 24px;
     } 
     
     .headline-block {
-        padding: 0 48px;
+        padding: 0 24px;
     }
 }
 
